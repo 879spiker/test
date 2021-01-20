@@ -1,0 +1,7 @@
+echo "# test" >> README.md 加入README檔		
+git init 初始化git檔(隱藏資料夾)
+git add README.md 把README檔加入追蹤清單
+git commit -m "first commit"  真正建立版本 -m 為給一個訊息 "裡面為建立的版本名稱"
+git branch -M main 建立分支 Main
+git remote add origin https://github.com/879spiker/test.git 將電腦中的資料夾與git hub 網站中的資料夾連結
+git push -u origin main 上傳檔案
